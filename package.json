@@ -1,0 +1,22 @@
+{
+  "name": "react-socketio",
+  "version": "1.0.0",
+  "description": "chat en tiempo real react y node",
+  "main": "server/index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon server/index.js",
+    "start": "node server/index.js"
+  },
+  "author": "Angel Manaure",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "morgan": "^1.10.0",
+    "socket.io": "^4.7.5"
+  }
+}
